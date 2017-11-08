@@ -1308,7 +1308,7 @@ ApplicationWindow {
         Qt.quit();
     }
 
-    // @TODO:#CHARNACOIN adapt checking update function
+    // @TODO:#ULTRAPOINT adapt checking update function
     function checkUpdates() {
         var update = walletManager.checkUpdates("ultrapoint-gui")
         if (update === "")

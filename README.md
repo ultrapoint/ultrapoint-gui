@@ -23,7 +23,7 @@ As Cryptonote/Monero based technology, Ultrapoint is a private, secure, untracea
 
 This is the GUI for the [core Ultrapoint implementation](https://github.com/ultrapoint/ultrapoint-core). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Ultrapoint that uses the protocol and network in a compatible manner.
 
-As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. Ultrapoint's development is also well followed to sweet futur improvements according to charnacoin own behavior. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
+As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. Monero's development is also well followed to sweet futur improvements according to Ultrapoint own behavior. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
 ## Supporting the Project
 
@@ -31,7 +31,7 @@ Ultrapoint development can be supported directly through donations.
 
 Both Monero and Bitcoin donations can be made to donate.ultrapoint.org if using a client that supports the [OpenAlias](https://openalias.org) standard
 
-The Ultrapoint donation address is: `9RUGwFu3WGh3wAkeWWzMNiQXiW9ChYRpH974mDdrGcjpEcpPrz143oc9sV1W8YyAUwCztbfxt9usZSMVnSBwPxCaDXzhYWz` (viewkey: `ac3b8aaffde0fba30a69cfceb54c7192aa6cf6161f86c8e970252d6ae94347e7`)
+The Ultrapoint donation address is: `7Ey8jHDkWqYDSpoSssv5EmAcsXCct4hum4mhHxT6ruaof9C7JM1ekjsYFa8dQEUL4QMai15akL2az2Me48ShgNMWV3yBkSV` (viewkey: `1df312824af6eaae0667fbebe941d25510745ea2f5a7889e0fa509e2d79a3404`)
 
 The Bitcoin donation address is: `1DDquqzHZEM2PF7Qyftr9hvxk2NJaiozxx`
 
