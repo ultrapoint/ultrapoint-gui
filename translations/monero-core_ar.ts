@@ -1751,7 +1751,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Utrapoint!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1825,7 +1825,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Utrapoint!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
