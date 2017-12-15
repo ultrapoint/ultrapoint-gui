@@ -317,7 +317,7 @@ Rectangle {
                 Layout.fillWidth: true
                 validator: DoubleValidator {
                     bottom: 0.0
-                    top: 300000000.00000000
+                    top: 10000000000.000000000
                     decimals: 9
                     notation: DoubleValidator.StandardNotation
                     locale: "C"
