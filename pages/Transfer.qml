@@ -159,8 +159,8 @@ Rectangle {
               width: parent.width - 37 - 17 - 60
               validator: DoubleValidator {
                   bottom: 0.0
-                  top: 300000000.00000000
-                  decimals: 8
+                  top: 10000000000.000000000
+                  decimals: 9
                   notation: DoubleValidator.StandardNotation
                   locale: "C"
               }
