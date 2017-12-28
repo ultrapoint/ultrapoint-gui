@@ -1,4 +1,4 @@
-# Ultrapoint GUI
+# Ultrapoint GUI Wallet
 
 Copyright (c) 2017, The Ultrapoint Project
 
