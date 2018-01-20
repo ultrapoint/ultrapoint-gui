@@ -1800,8 +1800,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UP and add a 0.0025 UP to support Ultrapoint development.</source>
-        <translation>在每一笔交易中 Ultrapoint 系统都会收取小额的手续费，而这个选项则是让你可以增加额外的金额赞助 Ultrapoint 的开发，比例以当次交易的手续费计算，譬如 50% 的自动赞助将会从0.005 DIT的手续费算出 0.0025 UP 的金额赞助给 Ultrapoint 开发团队。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Ultrapoint development.</source>
+        <translation>在每一笔交易中 Ultrapoint 系统都会收取小额的手续费，而这个选项则是让你可以增加额外的金额赞助 Ultrapoint 的开发，比例以当次交易的手续费计算，譬如 50% 的自动赞助将会从0.005 DIT的手续费算出 0.0025 UPX 的金额赞助给 Ultrapoint 开发团队。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>

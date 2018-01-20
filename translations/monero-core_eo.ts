@@ -1785,8 +1785,8 @@ Bonvolu plibonigi aŭ konekti al alia demono</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UP and add a 0.0025 UP to support Ultrapoint development.</source>
-        <translation>Por ĉiu transakcio, one devas pagi malgrandan transakcikoston. Tio ĉi opcio ebligas aldona kvato (procento de la basa kosto) al via transakcio por subteni la progamadon de Ultrapoint.Ekzemple, 50% aŭtomata donaco aldonas 0.0025 UP al transakcikosto de 0.005 UP.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Ultrapoint development.</source>
+        <translation>Por ĉiu transakcio, one devas pagi malgrandan transakcikoston. Tio ĉi opcio ebligas aldona kvato (procento de la basa kosto) al via transakcio por subteni la progamadon de Ultrapoint.Ekzemple, 50% aŭtomata donaco aldonas 0.0025 UPX al transakcikosto de 0.005 UPX.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>

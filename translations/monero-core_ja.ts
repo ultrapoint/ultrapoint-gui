@@ -1795,7 +1795,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UP and add a 0.0025 UP to support Ultrapoint development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Ultrapoint development.</source>
         <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをモネロの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 DITであった場合、0.0025 DITが開発チームへの寄付として取引に上乗せされます。</translation>
     </message>
     <message>

@@ -163,7 +163,7 @@ Item {
             wrapMode: Text.Wrap
             text: qsTr("For every transaction, a small transaction fee is charged. This option lets you add an additional amount, " +
                        "as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% " +
-                       "autodonation take a transaction fee of 0.005 UP and add a 0.0025 UP to support Ultrapoint development.")
+                       "autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Ultrapoint development.")
                     + translationManager.emptyString
         }
         Column {

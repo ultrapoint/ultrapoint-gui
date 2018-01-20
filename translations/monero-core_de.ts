@@ -1767,8 +1767,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UP and add a 0.0025 UP to support Ultrapoint development.</source>
-        <translation>Jede Transaktion kostet Dich eine kleine Gebühr. Mit dieser Option kannst Du einen zusätzlichen Prozentsatz dieser Kosten an die Entwickler spenden. Bei einer 50%igen Spende und einer Gebühr von 0.005 UP gehen zusätzliche 0.0025 UP von Deinem Konto an die Entwickler.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Ultrapoint development.</source>
+        <translation>Jede Transaktion kostet Dich eine kleine Gebühr. Mit dieser Option kannst Du einen zusätzlichen Prozentsatz dieser Kosten an die Entwickler spenden. Bei einer 50%igen Spende und einer Gebühr von 0.005 UPX gehen zusätzliche 0.0025 UPX von Deinem Konto an die Entwickler.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>

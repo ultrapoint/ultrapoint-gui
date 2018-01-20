@@ -880,7 +880,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="341"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Click Generate to create a random payment id for a new customer&lt;/p&gt; &lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;UP is een eenvoudige verkoop tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Klik hier om een willekeurige betaal-ID te maken voor een nieuwe klant&lt;/p&gt; &lt;p&gt;Laat je klant deze QR code scannen om een betaling uit te voeren (als die klant over software beschikt die QR codes kan scannen).&lt;/p&gt;&lt;p&gt;Deze pagina zal automatisch de blockchain en transactiepoel scannen op inkomende transacties met behulp van deze QR code. Als je een bedrag invult, zal er ook gecontroleerd worden of het complete bedrag ontvangen is.&lt;/p&gt;Het is aan jou om eventuele onbevestigde transacties te accepteren of niet. Het is zeer waarschijnlijk dat deze op korte termijn bevestigd zullen worden, maar er is nog steeds een mogelijkheid dat up niet gebeurt. Bij grote bedragen is het dus aan te raden te wachten op één of meer bevestigingen.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;UPX is een eenvoudige verkoop tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Klik hier om een willekeurige betaal-ID te maken voor een nieuwe klant&lt;/p&gt; &lt;p&gt;Laat je klant deze QR code scannen om een betaling uit te voeren (als die klant over software beschikt die QR codes kan scannen).&lt;/p&gt;&lt;p&gt;Deze pagina zal automatisch de blockchain en transactiepoel scannen op inkomende transacties met behulp van deze QR code. Als je een bedrag invult, zal er ook gecontroleerd worden of het complete bedrag ontvangen is.&lt;/p&gt;Het is aan jou om eventuele onbevestigde transacties te accepteren of niet. Het is zeer waarschijnlijk dat deze op korte termijn bevestigd zullen worden, maar er is nog steeds een mogelijkheid dat up niet gebeurt. Bij grote bedragen is het dus aan te raden te wachten op één of meer bevestigingen.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="251"/>
@@ -1101,7 +1101,7 @@
     <message>
         <location filename="../pages/Sign.qml" line="69"/>
         <source>This is a good signature</source>
-        <translation>UP is een geldige handtekening</translation>
+        <translation>UPX is een geldige handtekening</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="73"/>
@@ -1816,7 +1816,7 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <source>This is the 25 word mnemonic for your wallet</source>
-        <translation type="vanished">UP is de hersteltekst voor uw portemonnee, bestaande uit 25 woorden</translation>
+        <translation type="vanished">UPX is de hersteltekst voor uw portemonnee, bestaande uit 25 woorden</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet.qml" line="99"/>
@@ -1843,8 +1843,8 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UP and add a 0.0025 UP to support Ultrapoint development.</source>
-        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Ultrapoint te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 UP en voegt 0.0025 UP toe om de ontwikkeling van Ultrapoint te ondersteunen.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Ultrapoint development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Ultrapoint development.</source>
+        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Ultrapoint te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 UPX en voegt 0.0025 UPX toe om de ontwikkeling van Ultrapoint te ondersteunen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1989,7 +1989,7 @@ Graag upgraden of verbinden met een andere node</translation>
     <name>WizardManageWalletUI</name>
     <message>
         <source>This is the name of your wallet. You can change it to a different name if you’d like:</source>
-        <translation type="vanished">UP is de naam van uw portemonnee. U kunt de naam veranderen mocht u dat willen:</translation>
+        <translation type="vanished">UPX is de naam van uw portemonnee. U kunt de naam veranderen mocht u dat willen:</translation>
     </message>
     <message>
         <source>My account name</source>
@@ -2100,7 +2100,7 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <source>This is my first time, I want to create a new account</source>
-        <translation type="vanished">UP is mijn eerste keer, ik wil een nieuwe portemonnee aanmaken</translation>
+        <translation type="vanished">UPX is mijn eerste keer, ik wil een nieuwe portemonnee aanmaken</translation>
     </message>
     <message>
         <source>I want to recover my account from my 25 word seed</source>
@@ -2307,16 +2307,16 @@ Omschrijving:</translation>
     <message>
         <location filename="../main.qml" line="714"/>
         <source>This address received %1 ultrapoint, but the transaction is not yet mined</source>
-        <translation>UP adres heeft %1 ultrapoint ontvangen, maar de transactie is nog niet verwerkt</translation>
+        <translation>UPX adres heeft %1 ultrapoint ontvangen, maar de transactie is nog niet verwerkt</translation>
     </message>
     <message>
         <source>This address received %1 ultrapoint, with %2 confirmations</source>
-        <translation type="vanished">UP adres heeft %1 ultrapoint ontvangen, met %2 bevestigingen</translation>
+        <translation type="vanished">UPX adres heeft %1 ultrapoint ontvangen, met %2 bevestigingen</translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
         <source>This address received nothing</source>
-        <translation>UP adres heeft niets ontvangen</translation>
+        <translation>UPX adres heeft niets ontvangen</translation>
     </message>
     <message>
         <location filename="../main.qml" line="486"/>
