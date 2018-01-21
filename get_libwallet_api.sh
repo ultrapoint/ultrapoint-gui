@@ -17,7 +17,7 @@ BUILD_LIBWALLET=false
 # fi
 git submodule update
 git -C $MONERO_DIR fetch --tags
-# git -C $MONERO_DIR checkout v0.11.0
+# git -C $MONERO_DIR checkout v0.13.13
 
 # get ultrapoint core tag
 get_tag
