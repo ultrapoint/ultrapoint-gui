@@ -1,16 +1,16 @@
-; Monero Helium Hydra GUI Wallet Installer for Windows
+; Ultrapoint Cosinus GUI Wallet Installer for Windows
 ; Copyright (c) 2014-2017, The Monero Project
 ; See LICENSE
 
 [Setup]
-AppName=Monero GUI Wallet
+AppName=Ultrapoint GUI Wallet
 ; For InnoSetup this is the property that uniquely identifies the application as such
 ; Thus it's important to keep this stable over releases
 ; With a different "AppName" InnoSetup would treat a mere update as a completely new application and thus mess up
 
-AppVersion=0.11.1.0
-DefaultDirName={pf}\Monero GUI Wallet
-DefaultGroupName=Monero GUI Wallet
+AppVersion=0.15.0
+DefaultDirName={pf}\Ultrapoint GUI Wallet
+DefaultGroupName=Ultrapoint GUI Wallet
 UninstallDisplayIcon={app}\ultrapoint-wallet-gui.exe
 PrivilegesRequired=admin
 ArchitecturesInstallIn64BitMode=x64
@@ -36,31 +36,31 @@ Name: "en"; MessagesFile: "compiler:Default.isl"
 Source: "ReadMe.htm"; DestDir: "{app}"; Flags: comparetimestamp
 Source: "FinishImage.bmp"; Flags: dontcopy
 
-; Monero GUI wallet
+; Ultrapoint GUI wallet
 Source: "bin\ultrapoint-wallet-gui.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero GUI wallet log file
+; Ultrapoint GUI wallet log file
 ; The GUI wallet does not have the "--log-file" command-line option of the CLI wallet and insists to put the .log beside the .exe
 ; so pre-create the file and give the necessary permissions to the wallet to write into it
 Source: "ultrapoint-wallet-gui.log"; DestDir: "{app}"; Flags: comparetimestamp; Permissions: users-modify
 
-; Monero CLI wallet
+; Ultrapoint CLI wallet
 Source: "bin\ultrapoint-wallet-cli.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero wallet RPC interface implementation
+; Ultrapoint wallet RPC interface implementation
 Source: "bin\ultrapoint-wallet-rpc.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero daemon
-Source: "bin\monerod.exe"; DestDir: "{app}"; Flags: comparetimestamp
+; Ultrapoint daemon
+Source: "bin\ultrapointd.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero daemon wrapped in a batch file that stops before the text window closes, to see any error messages
+; Ultrapoint daemon wrapped in a batch file that stops before the text window closes, to see any error messages
 Source: "ultrapoint-daemon.bat"; DestDir: "{app}"; Flags: comparetimestamp;
 
-; Monero blockchain utilities
+; Ultrapoint blockchain utilities
 Source: "bin\ultrapoint-blockchain-export.exe"; DestDir: "{app}"; Flags: comparetimestamp
 Source: "bin\ultrapoint-blockchain-import.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; was present in 0.10.3.1, not present anymore in 0.11.1.0
+; was present in 0.13.x, not present anymore in 0.15.0
 ; Source: "bin\ultrapoint-utils-deserialize.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
 ; Various .qm files for translating the wallet UI "on the fly" into all supported languages
@@ -167,7 +167,7 @@ Source: "bin\libicuuc57.dll"; DestDir: "{app}"; Flags: comparetimestamp
 Source: "bin\libintl-8.dll"; DestDir: "{app}"; Flags: comparetimestamp
 
 ; JasPer, support for JPEG-2000
-; was present in 0.10.3.1, not present anymore in 0.11.1.0
+; was present in 0.13.x, not present anymore in 0.15.0
 ; Source: "bin\libjasper-1.dll"; DestDir: "{app}"; Flags: comparetimestamp
 
 ; libjpeg, C library for reading and writing JPEG image files
@@ -233,8 +233,8 @@ begin
   WizardForm.WizardBitmapImage2.Bitmap.LoadFromFile(ExpandConstant('{tmp}\FinishImage.bmp'));
 
   // Additional wizard page for entering a special blockchain location
-  blockChainDefaultDir := ExpandConstant('{commonappdata}\bitmonero');
-  s := 'The default folder to store the Monero blockchain is ' + blockChainDefaultDir;
+  blockChainDefaultDir := ExpandConstant('{commonappdata}\ultrapoint');
+  s := 'The default folder to store the Ultrapoint blockchain is ' + blockChainDefaultDir;
   s := s + '. As this will need more than 30 GB of free space, you may want to use a folder on a different drive.';
   s := s + ' If yes, specify that folder here.';
 
@@ -283,7 +283,7 @@ end;
 function DaemonLog(Param: String) : String;
 // Full filename of the log of the daemon
 begin
-  Result := BlockChainDir('') + '\bitmonero.log';
+  Result := BlockChainDir('') + '\ultrapoint.log';
   // No quotes for filename with blanks as this is never used as part of a command line
 end;
 
@@ -312,8 +312,8 @@ begin
   if CurStep = ssPostInstall then begin
     // Re-build "ultrapoint-daemon.bat" according to actual install and blockchain directory used
     SetArrayLength(s, 3);
-    s[0] := 'REM Execute the Monero daemon and then stay with window open after it exits';
-    s[1] := '"' + ExpandConstant('{app}\monerod.exe') + '" ' + DaemonFlags('');
+    s[0] := 'REM Execute the Ultrapoint daemon and then stay with window open after it exits';
+    s[1] := '"' + ExpandConstant('{app}\ultrapointd.exe') + '" ' + DaemonFlags('');
     s[2] := 'PAUSE';
     SaveStringsToFile(ExpandConstant('{app}\ultrapoint-daemon.bat'), s, false); 
   end;
@@ -331,7 +331,7 @@ end;
 
 
 [Icons]
-; Icons in the "Monero GUI Wallet" program group
+; Icons in the "Ultrapoint GUI Wallet" program group
 ; Windows will almost always display icons in alphabetical order, per level, so specify the text accordingly
 Name: "{group}\GUI Wallet"; Filename: "{app}\ultrapoint-wallet-gui.exe"
 Name: "{group}\Uninstall GUI Wallet"; Filename: "{uninstallexe}"
@@ -339,23 +339,23 @@ Name: "{group}\Uninstall GUI Wallet"; Filename: "{uninstallexe}"
 ; Sub-folder "Utilities";
 ; Note that Windows 10, unlike Windows 7, ignores such sub-folders completely
 ; and insists on displaying ALL icons on one single level
-Name: "{group}\Utilities\Monero Daemon"; Filename: "{app}\monerod.exe"; Parameters: {code:DaemonFlags}
+Name: "{group}\Utilities\Ultrapoint Daemon"; Filename: "{app}\ultrapointd.exe"; Parameters: {code:DaemonFlags}
 Name: "{group}\Utilities\Read Me"; Filename: "{app}\ReadMe.htm"
 
 ; CLI wallet: Needs a working directory ("Start in:") set in the icon, because with no such directory set
 ; it tries to create new wallets without a path given in the probably non-writable program folder and will abort with an error
-Name: "{group}\Utilities\Textual (CLI) Wallet"; Filename: "{app}\ultrapoint-wallet-cli.exe"; WorkingDir: "{userdocs}\Monero\wallets"
+Name: "{group}\Utilities\Textual (CLI) Wallet"; Filename: "{app}\ultrapoint-wallet-cli.exe"; WorkingDir: "{userdocs}\Ultrapoint\wallets"
 
 ; Icons for troubleshooting problems / testing / debugging
 ; To show that they are in some way different (not for everyday use), make them visually different
 ; from the others by text, and make them sort at the end by the help of "x" in front 
 Name: "{group}\Utilities\x (Check Blockchain Folder)"; Filename: "{win}\Explorer.exe"; Parameters: {code:BlockChainDir}
 Name: "{group}\Utilities\x (Check Daemon Log)"; Filename: "Notepad"; Parameters: {code:DaemonLog}
-Name: "{group}\Utilities\x (Check Default Wallet Folder)"; Filename: "{win}\Explorer.exe"; Parameters: "{userdocs}\Monero\wallets"
+Name: "{group}\Utilities\x (Check Default Wallet Folder)"; Filename: "{win}\Explorer.exe"; Parameters: "{userdocs}\Ultrapoint\wallets"
 Name: "{group}\Utilities\x (Check GUI Wallet Log)"; Filename: "Notepad"; Parameters: "{app}\ultrapoint-wallet-gui.log"
 Name: "{group}\Utilities\x (Try Daemon, Exit Confirm)"; Filename: "{app}\ultrapoint-daemon.bat"
 Name: "{group}\Utilities\x (Try GUI Wallet Low Graphics Mode)"; Filename: "{app}\start-low-graphics-mode.bat"
-Name: "{group}\Utilities\x (Try Kill Daemon)"; Filename: "Taskkill.exe"; Parameters: "/IM monerod.exe /T /F"
+Name: "{group}\Utilities\x (Try Kill Daemon)"; Filename: "Taskkill.exe"; Parameters: "/IM ultrapointd.exe /T /F"
 
 ; Desktop icons, optional with the help of the "Task" section
 Name: "{userdesktop}\GUI Wallet"; Filename: "{app}\ultrapoint-wallet-gui.exe"; Tasks: desktopicon

@@ -42,7 +42,7 @@ import "wizard"
 
 ApplicationWindow {
     id: appWindow
-    title: "Monero"
+    title: "Ultrapoint"
 
     property var currentItem
     property bool whatIsEnable: false
