@@ -1,3 +1,4 @@
 [submodule "ultrapoint"]
 	path = ultrapoint
 	url = https://github.com/ultrapoint/ultrapoint-core.git
+	ignore = all

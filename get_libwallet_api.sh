@@ -12,11 +12,11 @@ MONERO_DIR=$ROOT_DIR/ultrapoint
 BUILD_LIBWALLET=false
 
 # init and update ultrapoint submodule
-# if [ ! -d $MONERO_DIR/src ]; then
-#     git submodule init ultrapoint
-# fi
-git submodule update
-git -C $MONERO_DIR fetch --tags
+if [ ! -d $MONERO_DIR/src ]; then
+    git submodule init ultrapoint
+fi
+# git submodule update --remote
+# git -C $MONERO_DIR fetch
 # git -C $MONERO_DIR checkout v0.13.13
 
 # get ultrapoint core tag
@@ -226,6 +226,8 @@ fi
 # build install epee
 eval make -C $MONERO_DIR/build/release/contrib/epee all install
 
+# install easylogging
+eval make -C $MONERO_DIR/build/release/external/easylogging++ all install
 
 # Install libunwind
 echo "Installing libunbound..."
