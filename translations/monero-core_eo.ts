@@ -995,7 +995,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
         <source>Embedded Ultrapoint version: </source>
-        <translation>Enkorpigita Monera versio</translation>
+        <translation>Enkorpigita Ultrapoint versio</translation>
     </message>
 </context>
 <context>
@@ -1573,7 +1573,7 @@ Bonvolu plibonigi aŭ konekti al alia demono</translation>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
         <source>Kickstart the Ultrapoint blockchain?</source>
-        <translation>Komencigi la Monera blokĉeno?</translation>
+        <translation>Komencigi la Ultrapoint blokĉeno?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1588,7 +1588,7 @@ Bonvolu plibonigi aŭ konekti al alia demono</translation>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
         <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Ultrapoint instance. However, storing the full blockchain is beneficial to the security of the Ultrapoint network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Diskakonservado-reĝimo uzas malmultege da diskspaco, sed la saman kvanton da retkapacito ol normala Monera nodo. Tamen, la konservado de la plena blokĉeno beneficas por la sekureco de la Monerreto.Se vi uzas aparaton kun mulmulte da diskspaco, tio ĉi opcio taŭgas al vi.</translation>
+        <translation>Diskakonservado-reĝimo uzas malmultege da diskspaco, sed la saman kvanton da retkapacito ol normala Ultrapoint nodo. Tamen, la konservado de la plena blokĉeno beneficas por la sekureco de la Monerreto.Se vi uzas aparaton kun mulmulte da diskspaco, tio ĉi opcio taŭgas al vi.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
